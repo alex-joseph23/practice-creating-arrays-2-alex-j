@@ -1,5 +1,4 @@
-let greetings = Array(7);
-greetings.fill("Hello");
+let greetings = Array(7).fill("Hello");
 console.log(greetings);
 
 greetings.fill("Hi", 1, 4);
